@@ -1,0 +1,79 @@
+body {
+    font-family: "Patrick Hand";
+    margin: 0;
+    padding: 0;
+    background-color: #101c2c;
+}
+
+a {
+    text-decoration: none;
+    color: brown;
+}
+a:hover{
+    color: chocolate;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Aboreto";
+    color: darkgoldenrod;
+    font-size: 30px;
+}
+
+h2 {
+    padding-left: 23px;
+    color: darkgoldenrod;
+}
+
+h3{
+    color: orange;
+}
+header h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    display: flex;
+    font-family: Aboreto;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+.post {
+    background-color: #022b59;
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px #ccc;
+    font-size: 25px;
+}
+
+.post h3 {
+    margin: 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}

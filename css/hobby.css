@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:  #101c2c;
+    color: beige;
+}
+.head {
+    border: 2px solid gray;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-family: Aboreto;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bolder;
+    color: darkgoldenrod;
+    background-color: black;
+}
+
+img {
+    width: 500px;
+    height: 280px;
+    box-shadow: 5px 5px 15px #333333;
+}
+
+.events-one {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    padding-left: 120px;
+    padding-right: 50px;
+
+}
+
+.events-one .events {
+    padding-right: 5%;
+    border: 3px solid transparent;
+    justify-content: space-evenly;  
+    text-align: justify;
+
+}
+.events-one .events .heading{
+    padding-top: 15px;
+    text-align: center;
+    font-family: "Titillium Web";
+    font-size: 25px;
+}
+.para{
+    padding-top: 15px;
+    font-family: "Patrick Hand";
+    font-size: 25px;
+    font-weight: 500;
+}
+.events-two {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 3%;
+    padding-left: 120px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+
+}
+
+.events-two .events {
+    padding-right: 5%;
+    border: 3px solid transparent;
+    justify-content: space-evenly;  
+    text-align: justify;
+
+}
+.events-two .events .heading{
+    padding-top: 15px;
+    text-align: center;
+    font-family: "Titillium Web";
+    font-size: 25px;
+}
+.footer{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: black;
+}
+.footer h2{
+    text-align: center;
+    color: darkgoldenrod;
+    font-family: Aboreto;
+}
+@media only screen and (max-width:700px) {
+    img {
+        width: 340px;
+        height: 200px;
+        box-shadow: 5px 5px 15px #333333;
+    }
+    .events-one{
+        display: block;
+        padding-left: 55px;
+
+    }
+    .events-one .events {
+        padding-bottom: 5vh;
+    }
+    .events-two{
+        display: block;
+        padding-left: 55px;
+    }
+    .events-two .events {
+        padding-bottom: 5vh;
+    }
+}

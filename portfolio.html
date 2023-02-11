@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Aboreto&family=Patrick+Hand&family=Solitreo&family=Titillium+Web&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/portfolio.css">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 class="logo">AMISH <span class="hid">KHIMDUNG RAI</span> </h1>
+                <ul class="menu">
+                    <li><a href="index.html">Home</a> </li>
+                    <li><a href="#about">About me</a> </li>
+                    <li><a href="#family">Family</a></li>
+                    <li><a href="#education">Education</a> </li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Welcome to my Portfolio.</p>
+                <h1>I am <span>Amish Khimdung Rai.</span> </h1>
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./img/amish.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p class="text">I am an energetic, hardworking and disciplined student of Herald College Kathmandu.
+                        I am
+                        currently studying BIT(Hons). I have been interested in computer since my childhood, so i took
+                        it my career. Away from the studies, I love spending my time playing games or go on adventure. I
+                        am both indoor and outdoor person, but mostly indoor. </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('details')">Details</p>
+                        <p class="tab-links" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('languages')">Languages</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="details">
+                        <ul>
+                            <li><span>Date of Birth:</span> 2003/8/12</li>
+                        </ul>
+                        <ul>
+                            <li><span>Gender: </span> Male</li>
+                        </ul>
+                        <ul>
+                            <li><span>Nationality:</span> Nepali</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents " id="skills">
+                        <ul>
+                            <li><span>HTML: </span> Intermediate</li>
+                        </ul>
+                        <ul>
+                            <li><span>CSS:</span> Intermediate</li>
+                        </ul>
+                        <ul>
+                            <li><span>WordPress: </span> Expert</li>
+                        </ul>
+                        <ul>
+                            <li><span>Leadership: </span> Expert</li>
+                        </ul>
+                        <ul>
+                            <li><span>Communication: </span> Expert</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="languages">
+                        <ul>
+                            <li><span>Nepali:</span> Native Speaker</li>
+                        </ul>
+                        <ul>
+                            <li><span>English: </span> Fluent</li>
+                        </ul>
+                        <ul>
+                            <li><span>Hindi: </span> Fluent</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="family">
+        <div class="container">
+            <h1 class="sub-title">My Family</h1>
+            <div class="family-list">
+                <div>
+                    <img src="./img/pops.jpg" alt="">
+                    <h2>Father</h2>
+                </div>
+                <div>
+                    <img src="./img/mom.jpg" alt="">
+                    <h2>Mother</h2>
+                </div>
+                <div>
+                    <img src="./img/sis.jpg" alt="">
+                    <h2>Sister</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="education">
+        <div class="container">
+            <h1 class="sub-title">My Education</h1>
+            <div class="edu-list">
+                <div class="edu">
+                    <img src="./img/school.jpg" alt="">
+                    <div class="layer">
+                        <h3>Bishnu Memorial Secondary School</h3>
+                        <p>Level: School <br>
+                            A school located in Dharan - 9, Acharya line is the school where I completed my School level
+                            in the year of 2020.</p>
+                    </div>
+                </div>
+                <div class="edu">
+                    <img src="./img/hghscl.jpg" alt="">
+                    <div class="layer">
+                        <h3>Bishnu Memorial Secondary School</h3>
+                        <p>Level: High School <br>
+                            A school located in Dharan - 9, Acharya line is the high school where I completed my High
+                            School level
+                            in the year of 2022.</p>
+                    </div>
+                </div>
+                <div class="edu">
+                    <img src="./img/hck.jpg" alt="">
+                    <div class="layer">
+                        <h3>Herald College Kathmandu</h3>
+                        <p>Level: College <br>
+                            A UK's University affiliated college located in Naxal, Kathmandu is the college where I am
+                            studying my College level
+                            from the year of 2022.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright 2023. Created by Amish Khimdung Rai</p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+
+</body>
+
+</html>

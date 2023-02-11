@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+    color: white;
+    font-family: "Patrick Hand";
+}
+.container {
+    padding: 10px 10%;
+}
+.sub-title {
+    font-size: 60px;
+    font-weight: 600;
+    color: whitesmoke;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.contact-left{
+    flex-basis: 35%;
+    font-size: 25px;
+}
+
+.contact-right{
+    flex-basis: 60%;
+    padding-top: 100px;
+}
+.contact-left p{
+    margin-top: 30px;
+}
+.contact-left p i{ 
+    color: darkgoldenrod;
+    margin-right: 10px;
+    font-size: 25px;
+}
+.social-icons{
+    margin-top: 30px;
+}
+.social-icons img{
+    width: 40px;
+    height: 40px;
+}
+.social-icons a{
+    text-decoration: none;
+    margin-right: 15px;
+    display: inline-block;
+}
+.btn{
+    padding: 14px 60px;
+    text-decoration: none;
+    color: whitesmoke;
+    margin: 50px auto;
+    width: fit-content;
+    border: 2px solid darkgoldenrod;
+    border-radius: 5px;
+    transition: background 0.5s;
+}
+.btn.btn2:hover{
+    background: darkgoldenrod;
+}
+.btn.btn2{
+    display: inline-block;
+    background-color: black;
+    font-size: 25px;
+}
+.contact-right form{
+width: 100%;
+}
+form input, form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #101c2c;
+    padding: 15px;
+    margin: 15px;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+}
+form .btn2{
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+#msg{
+    color: green;
+    margin-top: -40px;
+    display: block;
+}
